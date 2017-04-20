@@ -6,5 +6,6 @@ public class MainClass {
          
         newsMachine.setNewsInfo("오늘 한파", "전국 영하 18도 입니다.");
         newsMachine.setNewsInfo("벛꽃 축제합니다", "다같이 벚꽃보러~");
+		//벚꽃 축제는 난 누구랑 가지?
     }
 }
