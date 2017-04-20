@@ -12,7 +12,7 @@ public class EventSubscriber implements Observer {
         newsString = title + "\n------------------------------------\n" + news;
         display();
     }
-     
+     // conflict test
     public void display() {
         System.out.println("\n\n=== 이벤트 유저 ===");
         System.out.println("\n\n" + newsString);
