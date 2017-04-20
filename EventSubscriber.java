@@ -12,10 +12,10 @@ public class EventSubscriber implements Observer {
         newsString = title + "\n------------------------------------\n" + news;
         display();
     }
-     
-	//누군가 이자리에 소스를 건드린다면??
+     // conflict test
+	//�군가 �자리에 �스�건드린다�?
     public void display() {
-        System.out.println("\n\n=== 이벤트 유저 ===");
+        System.out.println("\n\n=== �벤�� ===");
         System.out.println("\n\n" + newsString);
     }
 }
