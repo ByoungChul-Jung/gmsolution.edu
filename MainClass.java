@@ -1,3 +1,6 @@
+/*
+ * 메인 클래스입니다.
+ */
 public class MainClass {
     public static void main(String[] args) {
         NewsMachine newsMachine = new NewsMachine();
